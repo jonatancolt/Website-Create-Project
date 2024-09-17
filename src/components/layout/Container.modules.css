@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o container ocupe toda a altura da viewport */
+  }
+  
+  .min-height {
+    flex-grow: 1; /* Faz o conteúdo expandir para ocupar o espaço restante */
+  }
+  
+  Footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /*.start {
+justify-content:  flex-start;
+}
+
+.column {
+flex-direction: column;
+justify-content: flex-start;
+}
+*/
